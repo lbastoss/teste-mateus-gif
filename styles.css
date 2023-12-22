@@ -6,18 +6,20 @@
 } 
 
 .gif {
-    width: 150px;
+    width: 280px;
     position: relative;
-    top: 180px;
-    left: 30px;
+    top: 350px;
+    left: 40px;
+    display: inline-block;
+    transform: scaleX(-1);
 }
 
 .moov {
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 50%;
     margin-bottom: 100px;
-   
+    display: inline-block;
 
 }
 
@@ -25,9 +27,10 @@ h1 {
     text-align: center;
     color: #249481;
     margin: 20px auto; 
+    font-size: 150px;
 }
 
 div {
     margin-top: -115px; 
-    padding: 100x;
+    display: inline-block;
 }
